@@ -18,8 +18,8 @@ body {
 }
 .quote-container {
     width: auto;
-    max-width: 900px;
-    padding: 20px 30px;
+    max-width: 800px;
+    padding: 40px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -47,14 +47,25 @@ body {
 }
 button {
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     border: none;
     border-radius: 5px;
     color: black;
     outline: none;
-    padding: 0.5rem 1.1rem;
+    padding: 0.2rem 1.1rem;
     color: white;
     background-color: #3d7cc3;
+}
+#twitter {
+    color: #3d7cc3;
+    background-color: transparent;
+    font-size: 2.2rem;
+}
+button:hover {
+    filter: brightness(110%);
+}
+button:active {
+    transform: translate(0, 0.3rem);
 }
 
 /* Media queries -----------------------------------------*/
